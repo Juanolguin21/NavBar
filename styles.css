@@ -9,7 +9,7 @@ body {
 }
 .navbar {
     height: 80px;
-    background-color: rgb(3, 19, 99);
+    background-color: rgba(3, 19, 99, 0.738);
     padding: 10px 50px;
     display: flex;
     justify-content: space-between;
