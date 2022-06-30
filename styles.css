@@ -7,6 +7,33 @@ body {
 
     background-image: url(fondo.png);
 }
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px 200px;
+    background-color: antiquewhite;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 100px 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero_texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero_texto p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navbar {
     height: 80px;
     background-color: rgba(3, 19, 99, 0.738);
@@ -71,3 +98,4 @@ body {
 .menu ul li:hover {
     border-bottom: 1px solid white;
 }
+
